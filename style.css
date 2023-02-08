@@ -39,6 +39,21 @@
     
 }
 
+.debug .footer-left{
+    height: 50px;
+    background-color: blue;
+}
+
+.debug .footer-center{
+    height: 50px;
+    background-color: violet;
+}
+
+.debug .footer-right{
+    height: 50px;
+    background-color: peru;
+}
+
 /* UTILITY */
 
 .d-flex{
@@ -54,6 +69,10 @@
 }
 footer{
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
 }
 
 main{
