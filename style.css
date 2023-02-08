@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* DEBUG */
+
+ .debug main{
+    background-color: black;
+}
+
+.debug footer{
+    background-color: white;
+}
+
+.debug .sidebar{
+    background-color: gold;
+}
+
+.debug .content{
+    background-color: silver;
+}
+
+.debug .content-nav{
+    background-color: blue;
+    height: 50px;
+}
+
+.debug .cover-list{
+    border: dashed;
+    background-color: green;
+    
+}
+
+.debug .cover-container{
+    height: 200px;
+    background-color: red;
+    
+}
+
+/* UTILITY */
+
+.d-flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.overflow{
+    overflow-y: scroll;
+}
+footer{
+    height: 100px;
+}
+
+main{
+    height: calc(100vh - 100px);
+}
+
+aside{
+    width: 50px;
+}
+
+.content{
+    width: calc(100% - 50px);
+}
+
+.cover-list{
+    list-style: none;
+}
+
+.cover-item{
+    width: calc(50% - 40px);
+    margin: 20px;
+}
+
+.content-nav{
+    margin-top: 80px;
+}
+
+
+/*Responsive*/
+
+@media screen and (min-width: 576px) {
+    .sidebar{
+        width: 200px;
+    }
+
+    .content{
+        width: calc(100% - 200px);
+    }
+  
+}
+
+
+@media screen and (min-width: 768px) {
+    .cover-item{
+        width: 25%;
+    }
+  
+}
+
+@media screen and (min-width: 992px) {
+    .cover-item{
+        width: calc(100% / 6);
+    }
+  
+}
+
+
+
+
