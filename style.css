@@ -4,6 +4,10 @@
     box-sizing: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* DEBUG */
 
  .debug main{
@@ -24,11 +28,7 @@
 
 
 
-.debug .cover-list{
-    border: dashed;
-    background-color: green;
-    
-}
+
 
 
 
@@ -70,6 +70,10 @@
     border-radius: 50%;
 }
 
+.title-section{
+    padding: 10px 0;
+}
+
 .cta{
     position: fixed;
     
@@ -108,6 +112,7 @@ aside{
 
 .cover-list{
     list-style: none;
+    background-color: rgb(20, 25, 34);
 }
 
 .cover-item{
