@@ -71,7 +71,10 @@ body{
 }
 
 .title-section{
-    padding: 10px 0;
+    padding: 20px 20px;
+    background-color: rgb(20, 25, 34);
+
+    
 }
 
 .cta{
@@ -159,7 +162,7 @@ aside{
 
 .sidebar-top{
     height: calc(100% - 100px);
-    background-color: paleturquoise;
+    background-color: black;
 }
 
 .sidebar-bottom{
@@ -185,7 +188,7 @@ aside{
 }
 
 .logo-phone img{
-    margin: 5px 5px;
+    margin: 5px 10px;
     height: 50px;
 }
 
@@ -214,10 +217,16 @@ aside{
     display: inline-block;
 }
 
+
  .label{
     vertical-align: middle;
     display: none;
     color: gray;
+}
+
+.label:hover{
+    
+    color: white;
 }
 
     /* Fine sidebar*/
@@ -231,6 +240,11 @@ aside{
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
+}
+
+.title-playlist{
+    color: gray;
+    padding: 10px 0;
 }
 
 .playlist-list li{
@@ -293,6 +307,16 @@ aside{
         vertical-align: middle;
         display: inline-block;
     }
+
+    .logo-phone{
+        display: none;
+    }
+
+    .logo-desk{
+        display: block;
+        max-width: 150px;
+        margin: 10px;
+    }
   
 }
 
@@ -308,6 +332,16 @@ aside{
      .label{
         vertical-align: middle;
         display: inline-block;
+    }
+
+    .logo-phone{
+        display: none;
+    }
+
+    .logo-desk{
+        display: block;
+        max-width: 150px;
+        margin: 10px;
     }
   
 }
