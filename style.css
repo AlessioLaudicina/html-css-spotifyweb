@@ -22,9 +22,7 @@ body{
     background-color: gold;
 }
 
-.debug .content{
-    background-color: silver;
-}
+
 
 
 
@@ -84,13 +82,20 @@ body{
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     width: calc(100% - 50px);
+    display: flex;
+    align-items: center;
 }
 
 .btn{
     border: 1px solid white;
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
 }
+
+
+
 footer{
     height: 100px;
     display: flex;
