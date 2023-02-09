@@ -78,6 +78,12 @@
     background-color: rgba(255, 255, 255, 0.4);
     width: calc(100% - 50px);
 }
+
+.btn{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
 footer{
     height: 100px;
     display: flex;
@@ -93,7 +99,7 @@ main{
 }
 
 aside{
-    width: 30%;
+    width: 25%;
 }
 
 .content{
@@ -200,6 +206,7 @@ aside{
  .label{
     vertical-align: middle;
     display: none;
+    color: gray;
 }
 
     /* Fine sidebar*/
@@ -236,7 +243,7 @@ aside{
         width: calc(100% - 200px);
     }
 
-    .sidebar-list .label{
+     .label{
         vertical-align: middle;
         display: inline-block;
     }
@@ -250,7 +257,7 @@ aside{
         width: 25%;
     }
 
-    .sidebar-list .label{
+     .label{
         vertical-align: middle;
         display: inline-block;
     }
@@ -266,7 +273,7 @@ aside{
         width: calc(100% / 6);
     }
 
-    .sidebar-list .label{
+     .label{
         vertical-align: middle;
         display: inline-block;
     }
