@@ -50,6 +50,7 @@ body{
 .text-white{
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .d-flex{
@@ -92,6 +93,16 @@ body{
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.button{
+    float: right;
+}
+
+.button::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 
