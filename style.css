@@ -30,11 +30,7 @@
     
 }
 
-.debug .cover-container{
-    height: 200px;
-    background-color: red;
-    
-}
+
 
 .debug .footer-left{
     height: 50px;
@@ -68,6 +64,10 @@
 
 .overflow{
     overflow-y: scroll;
+}
+
+.rounded{
+    border-radius: 50%;
 }
 
 .cta{
@@ -136,6 +136,12 @@ aside{
     
     color: gray;
     padding-left: 15px;
+}
+
+.main-menu a:hover{
+    
+    color: white;
+    
 }
 
     /* Inizio sidebar*/
@@ -229,6 +235,27 @@ aside{
     
     
 }
+
+.playlist-list li:hover{
+    
+    color: white;
+    
+    
+}
+
+.cover-container{
+    text-align: center;
+    color: gray;
+}
+
+
+
+
+.cover-container .cover-img{
+    width: 100%;
+}
+
+
 
 
 
