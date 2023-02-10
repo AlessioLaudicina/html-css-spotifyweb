@@ -16,7 +16,7 @@ body{
 }
 
 .debug footer{
-    background-color: white;
+    background-color: gray;
 }
 
 .debug .sidebar{
@@ -31,15 +31,9 @@ body{
 
 
 
-.debug .footer-left{
-    height: 50px;
-    background-color: blue;
-}
 
-.debug .footer-center{
-    height: 50px;
-    background-color: violet;
-}
+
+
 
 .debug .footer-right{
     height: 50px;
@@ -52,6 +46,7 @@ body{
     color: white;
     font-weight: bold;
     text-decoration: none;
+    padding: 10px 5px;
 }
 
 .d-flex{
@@ -109,7 +104,7 @@ body{
 }
 
 .button {
-    margin-right: 120px;
+    margin-right: 20px;
 }
 
 
@@ -233,7 +228,7 @@ aside{
 }
 
 .sidebar-list img{
-    height: 30px;
+    height: 25px;
     vertical-align: middle;
 }
 
@@ -302,10 +297,13 @@ aside{
 #player{
     height: 100%;
     align-items: center;
+    background-color: gray;
 }
 
 .footer-left{
     width: 250px;
+    padding: 0 20px;
+
 }
 
 .footer-right{
@@ -319,6 +317,11 @@ aside{
 
 .player-album-icons{
     width: 20%;
+    color: white;
+}
+
+.player-album-icons i{
+    padding-left: 5px;
 }
 
 .player-album-cover{
@@ -335,11 +338,13 @@ aside{
 
 .player-control-button{
     height: 60%;
+    padding: 10px 0;
 }
 
 .player-control-button i{
     font-size: 25px;
     margin: 0 10px;
+    color: white;
 }
 
 #player .player-control-begin, #player .player-control-end{
@@ -409,6 +414,10 @@ aside{
         vertical-align: middle;
         display: inline-block;
     }
+
+    .cta{
+        width: calc(100% - 200px);
+    }
     
   
 }
@@ -422,6 +431,10 @@ aside{
      .label{
         vertical-align: middle;
         display: inline-block;
+    }
+
+    .cta{
+        width: calc(100% - 200px);
     }
 
     .logo-phone{
