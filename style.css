@@ -81,13 +81,19 @@ body{
 .btn{
     border: 1px solid white;
     background-color: transparent;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 20px;
     text-decoration: none;
 }
 
+
 .button {
     margin-right: 20px;
+    font-size: 12px;
+}
+
+.button:hover{
+    scale: 1.1;
 }
 
 
@@ -190,7 +196,7 @@ aside{
 
 .logo-phone img{
     margin: 5px 10px;
-    height: 50px;
+    height: 40px;
 }
 
 .logo-desk{
@@ -312,7 +318,7 @@ aside{
 
 .footer-right i{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 10px;
 }
 
@@ -420,6 +426,16 @@ aside{
 
     .cta{
         width: calc(100% - 200px);
+    }
+
+    .logo-phone{
+        display: none;
+    }
+
+    .logo-desk{
+        display: block;
+        max-width: 150px;
+        margin: 10px;
     }
     
   
