@@ -48,6 +48,10 @@ body{
     flex-wrap: wrap;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
 .overflow{
     overflow-y: scroll;
 }
@@ -94,6 +98,7 @@ body{
 
 footer{
     height: 100px;
+    background-color: rgb( 40, 40, 40);
     
     padding: 0 5px;
     z-index: 999;
@@ -166,18 +171,15 @@ aside{
 
 .sidebar-bottom{
     height: 100px;
-    background-color: rgb(79, 83, 83);
     display: flex;
     align-items: flex-end;
 }
-.download .download-img{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .download img {
-    height: 30px;
+    height: 20px;
     padding: 5px 10px;
+    margin: 0 20px;
 }
 
 .sidebar .sidebar-top{
@@ -350,7 +352,8 @@ aside{
 }
 .slider{
     height: 10px;
-    background-color: black;
+    background-color: gray;
+    ;
     border-radius: 5px;
 }
 
