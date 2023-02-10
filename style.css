@@ -15,30 +15,9 @@ body{
     background-color: black;
 }
 
-.debug footer{
-    background-color: gray;
-}
-
-.debug .sidebar{
-    background-color: gold;
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-.debug .footer-right{
-    height: 50px;
-    background-color: peru;
-}
 
 /* UTILITY */
 
@@ -297,7 +276,9 @@ aside{
 #player{
     height: 100%;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(40, 40, 40);
+
+    padding: 0 20px;
 }
 
 .footer-left{
@@ -314,6 +295,13 @@ aside{
 .footer-center{
     width: 40%;
 }
+
+.footer-right i{
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
 
 .player-album-icons{
     width: 20%;
