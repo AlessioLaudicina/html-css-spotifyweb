@@ -98,6 +98,7 @@ body{
     width: calc(100% - 50px);
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .btn{
@@ -106,17 +107,12 @@ body{
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
+    margin-right: 200px;
 }
 
-.button{
-    float: right;
-}
 
-.button::after{
-    content: "";
-    display: block;
-    clear: both;
-}
+
+
 
 
 
@@ -381,6 +377,12 @@ aside{
     top: -3px;
     background-color: yellow;
     display: none;
+
+}
+
+.slider:hover .percent .current{
+    
+    display: block;
 
 }
 
