@@ -358,6 +358,7 @@ aside{
 #player .player-control-begin, #player .player-control-end{
     text-align: center;
     width: 10%;
+    padding: 0 10px;
 }
 
 .player-control-progress{
@@ -370,15 +371,14 @@ aside{
 }
 .slider{
     height: 10px;
-    background-color: gray;
-    ;
+    background-color: #675f5f;
     border-radius: 5px;
 }
 
 .slider .percent{
     width: 20%;
     height: 100%;
-    background-color: green;
+    background-color: gray;
     border-radius: 5px;
     position: relative;
 
@@ -391,7 +391,7 @@ aside{
     position: absolute;
     right: 0;
     top: -3px;
-    background-color: yellow;
+    background-color: white;
     display: none;
 
 }
